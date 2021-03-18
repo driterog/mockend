@@ -1,27 +1,13 @@
 {
-  "type": "issue",
-  "id": "12546",
-  "title": "Parts of the bootstrap vue component render as undefined",
-  "author": "Korrie O'Crevy",
-  "created": "09/23/2016",
-  "labels": [
-    "first",
-    "second",
-    "third"
-  ],
-  "status": 1,
-  "project": {
-    "name": "Gjirafa50",
-    "thumbnail": "https://pbs.twimg.com/profile_images/1200454072270295040/B_8DofRr_400x400.jpg"
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
   },
-  "participants": [
-    {
-      "name": "Peter Reed",
-      "role": "Head of Bug fixing"
-    },
-    {
-      "name": "Peter Reed",
-      "role": "Head of Bug fixing"
-    }
-  ]
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
